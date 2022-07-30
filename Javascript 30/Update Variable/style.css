@@ -1,0 +1,33 @@
+body {
+  background-color: gray;
+}
+
+.all {
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.controls {
+  display: inline-flex;
+}
+
+:root {
+  --base: #787878;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
