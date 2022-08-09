@@ -2,7 +2,7 @@
    box-sizing: border-box;
    background: #ffc600;
    font-family: 'Oswald',
-   font-size: 20px;
+     font-size: 20px;
    font-weight: 200;
  }
 
@@ -17,15 +17,15 @@
  }
 
  a {
-  text-decoration: none;
-}
+   text-decoration: none;
+ }
 
-.pressed {
-  transition: transform .2s;
-  transform: scale(1.5);
-  box-shadow: 0 3px 4px 0 white;
-  opacity: 0.5;
-}
+ .pressed {
+   transition: transform .2s;
+   transform: scale(1.5);
+   box-shadow: 0 3px 4px 0 white;
+   opacity: 0.5;
+ }
 
  .panels {
    min-height: 100vh;
@@ -55,6 +55,7 @@
  .panel1 {
    background-image: url(https://i.picsum.photos/id/1035/5854/3903.jpg?hmac=DV0AS2MyjW6ddofvSIU9TVjj1kewfh7J3WEOvflY8TM);
  }
+
  .panel2 {
    background-image: url(https://i.picsum.photos/id/1037/5760/3840.jpg?hmac=fZe213BcO2KPQEJKChsdHnVYg-6kAtQMTZV24f1fS94);
  }
@@ -69,6 +70,10 @@
 
  .panel5 {
    background-image: url(https://i.picsum.photos/id/1012/3973/2639.jpg?hmac=s2eybz51lnKy2ZHkE2wsgc6S81fVD1W2NKYOSh8bzDc);
+ }
+
+ .panel6 {
+   background-image: url(https://i.picsum.photos/id/1009/5000/7502.jpg?hmac=Uj6crVILzsKbyZreBjHuMiaq_-n30qoHjqP0i7r30r8);
  }
 
  /* Flex Items */
